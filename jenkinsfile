@@ -27,7 +27,9 @@ stages
             stage('Test2 on slave machine') 
              { 
                agent {label " windows-SV"}
-               steps { git 'https://github.com/SherifMagdyBarakat/pipeline-project.git' echo "tested on slave machine" }
+               steps { git 'https://github.com/SherifMagdyBarakat/pipeline-project.git'
+                       echo "tested on slave machine"
+                     }
                
              } 
        }
