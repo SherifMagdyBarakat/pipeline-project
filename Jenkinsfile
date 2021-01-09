@@ -28,9 +28,8 @@ stages
              { 
                agent {label "WS"}
                steps { 
-                       echo "tested on slave machine"
+                      echo "tested on slave machine"
                      }
-               
              } 
        }
       }
